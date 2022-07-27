@@ -60,8 +60,19 @@ class LinkedList:
 				return
 			node_before = node
 		raise Exception("Target 404 -- Target Node Not in List")
-
-
+	def removeNext(self, target_data):
+		if self.head is None:
+			return
+		for node in self:
+			if node == target_data:
+				self.remove(node.next)
+	def removePrevious(self, target_data):
+		if self.head is None:
+			return
+		for node in self:
+			if node.next == target_data:
+				self.remove(node)
+	
 	def show(self):
 		""" Print the List out with arrows to visualize """
 		node = self.head
@@ -77,3 +88,4 @@ class Node:
 	def __init__(self, data):
 		self.data = data
 		self.next = None
+		
