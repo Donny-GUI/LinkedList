@@ -30,8 +30,7 @@ Well stop running into problems and copy paste this class into your code.
 
 ### __Help?__
 Below is a small breakdown of the class methods.
-If you are interested in data structures, first you might be a dork,
-and second you should check out Heaps, binary trees, deques, queues, facebook etc..
+If you are interested in data structures, , you should check out Heaps, binary trees, deques, queues etc..
 
 
 # ____.insertBefore()____
